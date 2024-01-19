@@ -1,0 +1,52 @@
+.banner00 {
+	width: 100%;
+	height: 200px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.banner01 {
+	background-image: url("../images/banners/wall01.jpg");
+}
+
+.banner02 {
+	background-image: url("../images/banners/wall002.jpg");
+}
+
+.banner03 {
+	background-image: url("../images/banners/wall03.jpg");
+}
+
+.tg-desk {
+	display: block;
+}
+
+.tg-mobile {
+	display: none;
+}
+
+.revel-mobile {
+	display: none;
+}
+
+/*SM >= 576px */
+@media (max-width: 576px) {
+	.tg-desk {
+	display: none;
+	}
+
+	.tg-mobile {
+		display: block;
+	}
+
+	.revel-mobile {
+		display: block;
+	}
+
+	.banner00 {
+		display: none;
+	}
+
+}
